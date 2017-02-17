@@ -1,23 +1,34 @@
 package be.cegeka.SecretService.Secret;
-
-import be.cegeka.SecretService.User.Person;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import be.cegeka.SecretService.user.Pineapple;
 
 /**
  * Created by dieterp on 17/02/2017.
  */
 public class Secret {
 
-    private int id;
+    private int id = 0;
+
+    public int getId() {
+        return id;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public Pineapple getPineapple() {
+        return pineapple;
+    }
+
     private String message;
-    private Person person;
+    private Pineapple pineapple;
 
 
 
-    public Secret(String message, Person person)
+    public Secret(String message, Pineapple pineapple)
     {
         this.id = ++id;
         this.message = message;
-        this.person = person;
+        this.pineapple = pineapple;
     }
 }
