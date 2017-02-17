@@ -1,11 +1,10 @@
-package User;
+package be.cegeka.SecretService.User;
 
+import javax.inject.Named;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by rodrPMFF on 17/02/2017.
- */
+@Named
 public class PersonRepository {
 
     private List<Person> people;

@@ -1,4 +1,4 @@
-package User;
+package be.cegeka.SecretService.User;
 
 import javax.inject.Inject;
 
@@ -10,6 +10,6 @@ public class PersonService {
     @Inject
     private PersonRepository repository;
 
-    
+
 
 }
