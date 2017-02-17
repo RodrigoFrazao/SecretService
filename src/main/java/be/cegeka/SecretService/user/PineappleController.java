@@ -3,7 +3,7 @@ package be.cegeka.SecretService.user;
 
 import javax.inject.Inject;
 
-public class PersonController {
+public class PineappleController {
 
     @Inject
     private PineappleRepository pineappleRepository;
