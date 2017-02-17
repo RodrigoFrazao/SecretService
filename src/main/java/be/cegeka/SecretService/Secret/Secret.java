@@ -26,6 +26,7 @@ public class Secret {
 
 
     public Secret(String message, Pineapple pineapple)
+
     {
         this.id = ++id;
         this.message = message;
