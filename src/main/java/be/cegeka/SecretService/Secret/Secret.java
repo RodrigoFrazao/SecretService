@@ -1,6 +1,6 @@
 package be.cegeka.SecretService.Secret;
 
-import be.cegeka.SecretService.User.Person;
+import be.cegeka.SecretService.user.Pineapple;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
 /**
@@ -10,11 +10,11 @@ public class Secret {
 
     private int id;
     private String message;
-    private Person person;
+    private Pineapple person;
 
 
 
-    public Secret(String message, Person person)
+    public Secret(String message, Pineapple person)
     {
         this.id = ++id;
         this.message = message;

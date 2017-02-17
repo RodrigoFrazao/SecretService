@@ -1,6 +1,6 @@
 package be.cegeka.SecretService.Secret;
 
-import be.cegeka.SecretService.User.Person;
+import be.cegeka.SecretService.user.Pineapple;
 
 import java.util.ArrayList;
 import java.util.List;
