@@ -1,9 +1,9 @@
-package be.cegeka.SecretService.User;
+package be.cegeka.SecretService.user;
 
 /**
  * Created by rodrPMFF on 17/02/2017.
  */
-public class Person {
+public class Pineapple {
 
     public int Id;
     private String firstName;
@@ -11,7 +11,7 @@ public class Person {
     private String username;
     private String password;
 
-    public Person(int id,String firstName, String lastName, String username, String password) {
+    public Pineapple(int id, String firstName, String lastName, String username, String password) {
         this.Id=id;
         this.firstName = firstName;
         this.lastName = lastName;
