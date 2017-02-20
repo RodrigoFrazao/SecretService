@@ -1,9 +1,7 @@
 package be.cegeka.SecretService.Secret;
 import be.cegeka.SecretService.user.Pineapple;
 
-/**
- * Created by dieterp on 17/02/2017.
- */
+
 public class Secret {
 
     private int id = 0;

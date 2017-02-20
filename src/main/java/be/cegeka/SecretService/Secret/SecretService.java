@@ -3,9 +3,6 @@ import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by dieterp on 17/02/2017.
- */
 public class SecretService {
 
     @Inject

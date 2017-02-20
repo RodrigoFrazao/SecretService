@@ -1,4 +1,4 @@
-package be.cegeka.SecretService.Controllers;
+package be.cegeka.SecretService.Controller;
 
 import be.cegeka.SecretService.user.Pineapple;
 import be.cegeka.SecretService.user.PineappleService;
