@@ -21,6 +21,7 @@ public class PineappleController {
 
     @RequestMapping (method = RequestMethod.GET)
     public
+
     @ResponseBody
     List<Pineapple> GetAllPineapples(){
        return pineappleService.getAllPineapples();

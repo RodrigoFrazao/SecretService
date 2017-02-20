@@ -1,10 +1,12 @@
 package be.cegeka.SecretService.Secret;
 import be.cegeka.SecretService.user.Pineapple;
 
+import java.util.List;
+
 
 public class Secret {
 
-    private int id = 0;
+    private int id;
 
     public int getId() {
         return id;
@@ -30,4 +32,12 @@ public class Secret {
         this.message = message;
         this.pineapple = pineapple;
     }
+
+    /*
+    public int MakeId(List<Secret> SecreList)
+    {
+
+        return 0;
+    }
+    */
 }
